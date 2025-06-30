@@ -1,30 +1,32 @@
 
 body {
-    font-family: sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    padding: 0;
-    background: #fff8f0;
+    background: linear-gradient(to bottom, #fff9f2, #ffe6cc);
     color: #333;
     text-align: center;
 }
 header {
+    background: #ffca7a;
     padding: 20px;
-    background-color: #ffdfb0;
+    border-bottom: 2px solid #f0a500;
 }
 .menu {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin: 40px auto;
-    max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 30px;
+    max-width: 320px;
+    margin: 0 auto;
 }
 .menu a {
     background: #ffa726;
-    color: white;
+    color: #fff;
     text-decoration: none;
     padding: 15px;
-    border-radius: 10px;
     font-size: 18px;
+    border-radius: 12px;
+    transition: background 0.3s ease;
 }
 .menu a:hover {
     background: #fb8c00;
